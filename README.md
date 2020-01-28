@@ -62,21 +62,12 @@ Tested with:
 8. Configure your domains DNS record. See [here]( https://help.github.com/articles/using-a-custom-domain-with-github-pages/) for more information.
 9. If using a custom url, modify the `CNAME` file to point to your URL. Modify the npm deploy script by appending `&& cp CNAME dist/` to the end of the `predeploy` line in the scripts section of package.json.
 If you plan to deploy to a /[path]
-(e.g. [https://mldangelo.github.io/personal-site/](https://mldangelo.github.io/personal-site/)), you should modify `BASE_PATH` in your `.env` and `sample.env` files and restart the express server. Note that you will now have to navigate to `localhost:[port]/[BASE_PATH]` when developing.
+(e.g. [https://mldangelo.github.io/personal-site/](https://mldangelo.github.io/personal-site/)), you should modify `BASE_PATH` in your `.env` and `sample.env` files and restart the express server. Note that you will now have to navigate to `localhost:[ls]/[BASE_PATH]` when developing.
 
 ## Deploying to Github Pages
 
 1. Change `NODE_ENV` to `production` in `.env`
 2. Run `npm run deploy`
-
-That's it.
-
-Please feel free to reach out to me by filing an issue or at help@mldangelo.com for help configuring your project.
-
-## Contributors
-
-* [@mldangelo](https://github.com/mldangelo)
-* [@typpo](https://github.com/typpo)
 
 
 ## License

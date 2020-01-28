@@ -34,34 +34,6 @@ export const categories = [
   },
 ];
 
-/*
-JSON, YAML, React.js, HTML,
-CSS, Java, Javascript, Typescript,
-VBA, Powershell
-
-Tools
-Atlassian Toolset (JIRA, Bitbucket, Bamboo, Confluence, Fisheye),
-Wireshark, Eclipse IDE, Visual Studio, Jenkins,
-Cmake, Code Collaborator,
-
-Version Control Systems
-Git, Mercurial, ClearCase, CVS
-
-
-General
-Windows, Linux, Cygwin, MS Office Suite, MS Visio, MS Project,
-MS Outlook, MS Teams, Lotus Notes, Sketchup, Mentor Graphics PADS
-
-HARDWARE
-•	Oscilloscopes
-•	DMM
-•	Logic Analyzers
-•	Spectrum Analyzers
-•	Hardware Signal Sources
-•	In-Circuit Emulators
-•	Hardware Circuit Diagrams
-
-*/
 export const skills = [
   /* Major languages */
   {
@@ -117,72 +89,202 @@ export const skills = [
     compentency: 7,
     category: ['Software', 'Tools'],
   },
+  {
+    title: 'JSON',
+    compentency: 7,
+    category: ['Software', 'Web', 'Scripting'],
+  },
+  {
+    title: 'YAML',
+    compentency: 7,
+    category: ['Software', 'Web', 'Scripting'],
+  },
 
   /* Software tools */
   {
     title: 'Mercurial',
-    compentency: 3,
-    category: ['Tools'],
+    compentency: 6,
+    category: ['Software', 'Tools'],
   },
   {
     title: 'Git',
-    compentency: 3,
-    category: ['Tools'],
+    compentency: 8,
+    category: ['Software', 'Tools'],
+  },
+  {
+    title: 'ClearCase',
+    compentency: 4,
+    category: ['Software', 'Tools'],
+  },
+  {
+    title: 'CVS',
+    compentency: 4,
+    category: ['Software', 'Tools'],
   },
   {
     title: 'Matlab',
-    compentency: 2,
-    category: ['Data Science', 'Machine Learning', 'Languages'],
+    compentency: 3,
+    category: ['Tools', 'Software', 'Languages'],
+  },
+  {
+    title: 'JIRA',
+    compentency: 10,
+    category: ['Software', 'Tools'],
+  },
+  {
+    title: 'Bitbucket',
+    compentency: 8,
+    category: ['Software', 'Tools'],
+  },
+  {
+    title: 'Bamboo',
+    compentency: 6,
+    category: ['Software', 'Tools'],
+  },
+  {
+    title: 'Confluence',
+    compentency: 8,
+    category: ['Software', 'Tools'],
+  },
+  {
+    title: 'Wireshark',
+    compentency: 6,
+    category: ['Software', 'Tools'],
+  },
+  {
+    title: 'Eclipse',
+    compentency: 7,
+    category: ['Software', 'Tools'],
+  },
+  {
+    title: 'Windows',
+    compentency: 10,
+    category: ['Other'],
+  },
+  {
+    title: 'Linux',
+    compentency: 7,
+    category: ['Other'],
+  },
+  {
+    title: 'Visual Studio',
+    compentency: 8,
+    category: ['Software', 'Tools'],
+  },
+  {
+    title: 'Jenkins',
+    compentency: 6,
+    category: ['Software', 'Tools'],
+  },
+  {
+    title: 'Cmake',
+    compentency: 5,
+    category: ['Software', 'Tools', 'Languages'],
+  },
+  {
+    title: 'Code Collaborator',
+    compentency: 3,
+    category: ['Software', 'Tools'],
+  },
+  {
+    title: 'MS Office',
+    compentency: 9,
+    category: ['Other', 'Software'],
+  },
+  {
+    title: 'Sketchup',
+    compentency: 6,
+    category: ['Tools', 'Software', 'Other'],
+  },
+  {
+    title: 'Mentor Graphics PADS',
+    compentency: 5,
+    category: ['Tools', 'Software', 'Hardware', 'Other'],
   },
 
   /* Major web and higher level  */
   {
     title: 'Javascript',
     compentency: 5,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    category: ['Web', 'Languages'],
   },
   {
     title: 'Node.JS',
     compentency: 5,
-    category: ['Web Development', 'Frameworks', 'Javascript'],
+    category: ['Web'],
   },
   {
     title: 'React',
     compentency: 4,
-    category: ['Web Development', 'Frameworks', 'Javascript'],
+    category: ['Web'],
   },
   {
     title: 'Typescript',
-    compentency: 3,
-    category: ['Web Development', 'Languages'],
+    compentency: 4,
+    category: ['Web', 'Languages'],
   },
   {
     title: 'HTML',
-    compentency: 3,
-    category: ['Web Development', 'Languages'],
+    compentency: 5,
+    category: ['Web', 'Languages'],
   },
   {
     title: 'CSS',
-    compentency: 3,
-    category: ['Web Development', 'Languages'],
+    compentency: 5,
+    category: ['Web', 'Languages'],
   },
   {
     title: 'SASS/SCSS',
-    compentency: 3,
-    category: ['Web Development', 'Languages'],
+    compentency: 4,
+    category: ['Web', 'Languages'],
   },
 
-  
+  /* Hardware */
+  {
+    title: 'Hardware Schematics',
+    compentency: 7,
+    category: ['Hardware', 'Skills'],
+  },
+  {
+    title: 'Oscilloscope',
+    compentency: 7,
+    category: ['Hardware', 'Tools', 'Skills'],
+  },
+  {
+    title: 'Digital Multimeter',
+    compentency: 9,
+    category: ['Hardware', 'Tools', 'Skills'],
+  },
+  {
+    title: 'Logic Analyzer',
+    compentency: 7,
+    category: ['Hardware', 'Tools', 'Skills'],
+  },
+  {
+    title: 'Hardware Signal Sources',
+    compentency: 6,
+    category: ['Hardware', 'Tools', 'Skills'],
+  },
+  {
+    title: 'In Circuit Emulators',
+    compentency: 8,
+    category: ['Hardware', 'Tools', 'Embedded', 'Skills'],
+  },
+  {
+    title: 'Spectrum Analyzers',
+    compentency: 7,
+    category: ['Hardware', 'Tools', 'Skills'],
+  },
 
   /* General Skills */
   {
     title: 'Photoshop',
-    compentency: 3,
-    category: ['Design'],
+    compentency: 6,
+    category: ['Software', 'Skills'],
   },
   {
     title: 'Product Development',
-    compentency: 3,
-    category: ['Other'],
+    compentency: 9,
+    category: ['Other', 'Skills'],
   },
 ];

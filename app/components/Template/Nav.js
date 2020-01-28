@@ -9,7 +9,7 @@ const Nav = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${BASE_PATH}/assets/logo512.png`} alt="" />
+        <img src={`${BASE_PATH}/assets/images/icon/logo512.png`} alt="" />
       </Link>
       <header>
         <h2>Jeff Bassett</h2>
@@ -26,11 +26,11 @@ const Nav = () => (
 
       <ul style={BulletListStyle}>
         <li>A <a href="https://www.niu.edu/ceet/index.shtml">Northern Illinois University</a> graduate</li>
-        <li>I am a woodworking enthusiast</li>
-        <li>I am a woodworking enthusiast</li>
-        <li>Milk</li>
+        <li>Software Engineer</li>
+        <li>Accomplished Oil Painter</li>
+        <li>Victorian House Restorer</li>
       </ul>
-      
+
       <ul className="actions">
         <li>
           {window.location.pathname !== `${BASE_PATH}/resume` ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
@@ -48,7 +48,7 @@ const Nav = () => (
           </li>
         ))}
       </ul>
-      <p className="copyright">&copy; Jeff Bassett <Link to="/">TODO.com</Link>.</p>
+      <p className="copyright">&copy; Jeff Bassett <Link to="/">artsanddevs.com</Link>.</p>
     </section>
   </section>
 );

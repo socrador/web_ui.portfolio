@@ -17,8 +17,8 @@ const Index = () => (
       <header>
         <div className="title">
           <h2><Link to="/">About this site</Link></h2>
-          <h3> Website dedicated to personal development</h3>
-          <p> Modern app using react and Javascript</p>
+          <h3> Website dedicated to artistic progression and development</h3>
+          <p> A modern app using react and Javascript</p>
         </div>
       </header>
       <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,

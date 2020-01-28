@@ -13,9 +13,11 @@ import Stats from './views/Stats';
 import Contact from './views/Contact';
 
 import NotFound from './views/NotFound';
+import UnderConstruction from './views/UnderConstruction';
 
 // All of our CSS
 import './static/css/main.scss';
+
 
 ReactDOM.render(
   <Router basename={BASE_PATH}>
@@ -26,6 +28,7 @@ ReactDOM.render(
       <Route path="/stats" component={Stats} />
       <Route path="/contact" component={Contact} />
       <Route path="/resume" component={Resume} />
+      <Route path="/underConstruction" component={UnderConstruction} />
       {/* Only useful in development mode */}
       <Route component={NotFound} status={404} />
     </Switch>

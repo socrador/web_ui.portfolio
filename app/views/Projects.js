@@ -6,7 +6,7 @@ import Main from '../layouts/Main';
 
 import Cell from '../components/Projects/Cell';
 import data from '../data/projects';
-
+/*
 const Projects = () => (
   <Main>
     <Helmet title="Projects" />
@@ -23,6 +23,22 @@ const Projects = () => (
           key={project.title}
         />
       ))}
+    </article>
+  </Main>
+);
+*/
+
+const Projects = () => (
+  <Main>
+    <Helmet title="Under Construction" />
+    <article className="post" id="projects">
+      <header>
+        <div className="title">
+          <h1>Page Page is currently under construction.</h1>
+          <h3>pardon our dust...</h3>
+          <p>Return to <Link to="/">index</Link>.</p>
+        </div>
+      </header>
     </article>
   </Main>
 );

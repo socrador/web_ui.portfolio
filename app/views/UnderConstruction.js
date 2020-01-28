@@ -4,13 +4,14 @@ import Helmet from 'react-helmet';
 
 import Main from '../layouts/Main';
 
-import Cell from '../components/Projects/Cell';
-import data from '../data/projects';
-
 const UnderConstruction = () => (
   <Main>
-    <Helmet title="Page Under Construction" />
-    <div>Page is under construction</div>
+    <Helmet title="Under Construction" />
+    <article className="post" id="underConstruction">
+      <h1>Page Page is currently under construction.</h1>
+      <h3>pardon our dust...</h3>
+      <p>Return to <Link to="/">index</Link>.</p>
+    </article>
   </Main>
 );
 

@@ -21,17 +21,18 @@ const messages = [
   'hola',
   'hallo',
   'Please email me anything! Really',
-  'well... most things',
+  'well... most things...',
   'like your house restoration projects...',
-  'or your art website...',
+  'or your website...',
+  'or your luthiery...',
   'you.can.also.email.me.with.specific.topics.like',
   'just-saying-hi',
   'please-work-for-us',
+  'Check out this amazing artist on instagram!',
   'help',
-  'admin',
-  'or-I-really-like-your-website',
+  'I really like your website...',
   'I\'ll-stop-distracting-you-now',
-  'thanks',
+  'Thanks!!',
 ];
 
 const useInterval = (callback, delay) => {
@@ -53,7 +54,7 @@ const useInterval = (callback, delay) => {
 };
 
 const Contact = () => {
-  const hold = 50; // ticks to wait after message is complete before rendering next message
+  const hold = 25; // ticks to wait after message is complete before rendering next message
   const delay = 50; // tick length in mS
 
   const [idx, updateIter] = useState(0); // points to current message
